@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "SDCC",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "C:/Users/30519/.eide/tools/sdcc/include",
+                "C:/Users/30519/.eide/tools/sdcc/include/mcs51",
+                "C:/Users/30519/.eide/tools/sdcc/non-free/include"
+            ],
+            "defines": [
+                "stc89c52rc"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "D:\\Program Files\\w64devkit\\bin\\gcc.exe",
+            "cppStandard": "gnu++20"
+        }
+    ],
+    "version": 4
+}

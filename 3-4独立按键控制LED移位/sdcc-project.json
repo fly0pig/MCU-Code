@@ -1,0 +1,28 @@
+{
+  "name": "my-sdcc-project",
+  "board": "stc89c52rc",
+  "sources": [
+    "src"
+  ],
+  "includes": [
+    "include"
+  ],
+  "defines": [],
+  "libraries": [
+    "lib"
+  ],
+  "components": [
+    "components"
+  ],
+  "build": {
+    "output_dir": "build",
+    "output_name": "firmware",
+    "hooks": {}
+  },
+  "upload": {
+    "tool": "echo",
+    "args": [
+      "Flash tool not configured"
+    ]
+  }
+}

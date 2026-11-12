@@ -1,0 +1,1 @@
+{"exe":"C:\\Users\\30519\\.eide\\tools\\sdcc\\bin\\sdcc.exe","tool":{"size":6072832,"mtimeMs":1646120836000},"argv":["-c","-mmcs51","--model-small","--iram-size","256","--xram-size","8192","--code-size","8192","-Dstc89c52rc","--debug","-Iinclude","-DF_CPU=11059200UL","-DDEBUG","src/main.c","-o","build/obj/src/main.rel"]}

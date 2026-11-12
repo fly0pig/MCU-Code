@@ -1,0 +1,20 @@
+-muwx
+-i build/firmware.ihx
+-M
+-I 0x0100
+-X 0x2000
+-C 0x2000
+-a HOME = 0x0000
+-a XSEG = 0x0001
+-a PSEG = 0x0001
+-a ISEG = 0x0000
+-a BSEG = 0x0000
+-k D:\Program Files\SDCC\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+build/obj/src/main.rel
+
+-e
