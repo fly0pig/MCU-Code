@@ -50,3 +50,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# 忽略编译输出目录
+build/
+# 忽略系统生成的文件
+.DS_Store
+Thumbs.db
+# 忽略 VS Code 或 EIDE 的本地配置（如果不想共享你的环境）
+.vscode/
+.eide/
+Debug/
+
+
