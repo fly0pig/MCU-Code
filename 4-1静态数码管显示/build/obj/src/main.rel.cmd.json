@@ -1,1 +1,0 @@
-{"exe":"D:\\Program Files\\SDCC\\bin\\sdcc.exe","tool":{"size":7323136,"mtimeMs":1793085752000},"argv":["-c","-mmcs51","--model-small","--iram-size","256","--xram-size","8192","--code-size","8192","-Dstc89c52rc","-Iinclude","-DF_CPU=11059200UL","src/main.c","-o","build/obj/src/main.rel"]}
